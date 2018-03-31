@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pa.sailproduction.MainActivity">
+
+    <Button
+        android:id="@+id/buttonASP"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:background="?android:attr/textColorLink"
+        android:onClick="getXroadASP"
+        android:text="@string/getASP"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonSSP"
+        app:layout_constraintStart_toEndOf="@+id/buttonSSP" />
+
+    <Button
+        android:id="@+id/buttonSSP"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="getXroadSSP"
+        android:text="@string/getSSP"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAll" />
+
+    <Button
+        android:id="@+id/buttonSAIL"
+        android:layout_width="269dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="?android:attr/statusBarColor"
+        android:onClick="getXroadSAIL"
+        android:text="@string/getSAIL"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonASP" />
+
+    <Button
+        android:id="@+id/buttonVISL"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/holo_green_dark"
+        android:onClick="getXroadVISL"
+        android:text="@string/getVISL"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonASP"
+        app:layout_constraintStart_toEndOf="@+id/buttonASP" />
+
+    <Button
+        android:id="@+id/buttonIISCO"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="104dp"
+        android:background="?android:attr/colorFocusedHighlight"
+        android:onClick="getXroadIISCO"
+        android:text="@string/getIISCO"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/buttonBSL"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAll"
+        android:layout_width="211dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_purple"
+        android:onClick="getXroadG5"
+        android:text="@string/getAll5"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBSL" />
+
+    <Button
+        android:id="@+id/buttonBSP"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_blue_light"
+        android:elevation="8dp"
+        android:onClick="getXroadBSP"
+        android:text="@string/getBSP"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonDSP"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/holo_green_dark"
+        android:onClick="getXroadDSP"
+        android:text="@string/getDSP"
+        android:textSize="30sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonBSP"
+        app:layout_constraintStart_toEndOf="@+id/buttonBSP" />
+
+    <Button
+        android:id="@+id/buttonRSP"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorAccent"
+        android:onClick="getXroadRSP"
+        android:text="@string/getRSP"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBSP" />
+
+    <Button
+        android:id="@+id/buttonBSL"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:background="?attr/colorPrimary"
+        android:onClick="getXroadBSL"
+        android:text="@string/getBSL"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonRSP"
+        app:layout_constraintStart_toEndOf="@+id/buttonRSP" />
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

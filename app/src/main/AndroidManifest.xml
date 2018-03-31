@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pa.sailproduction">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DisplayDataBSP" />
+        <activity android:name=".DisplayDataDSP" />
+        <activity android:name=".DisplayDataRSP" />
+        <activity android:name=".DisplayDataBSL" />
+        <activity android:name=".DisplayDataIISCO" />
+        <activity android:name=".DisplayDataG5" />
+        <activity android:name=".DisplayDataSSP" />
+        <activity android:name=".DisplayDataASP" />
+        <activity android:name=".DisplayDataVISL" />
+        <activity android:name=".DisplayDataSAIL" />
+        <activity android:name=".XroadASP" />
+        <activity android:name=".XroadBSL" />
+        <activity android:name=".XroadBSP" />
+        <activity android:name=".XroadDSP" />
+        <activity android:name=".XroadG5" />
+        <activity android:name=".XroadIISCO" />
+        <activity android:name=".XroadRSP" />
+        <activity android:name=".XroadSAIL" />
+        <activity android:name=".XroadSSP" />
+        <activity android:name=".XroadVISL" />
+        <activity android:name=".DateDisplayG5" />
+        <activity android:name=".DateDisplayASP" />
+        <activity android:name=".DateDisplayBSL" />
+        <activity android:name=".DateDisplayBSP" />
+        <activity android:name=".DateDisplayDSP" />
+        <activity android:name=".DateDisplayIISCO" />
+        <activity android:name=".DateDisplayRSP" />
+        <activity android:name=".DateDisplaySAIL" />
+        <activity android:name=".DateDisplaySSP" />
+        <activity android:name=".DateDisplayVISL"></activity>
+    </application>
+
+</manifest>

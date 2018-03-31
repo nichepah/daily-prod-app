@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SAIL ProInfo</string>
+    <string name="getBSP">BSP</string>
+    <string name="getRSP">RSP</string>
+    <string name="getDSP">DSP</string>
+    <string name="getBSL">BSL</string>
+    <string name="getIISCO">IISCO</string>
+    <string name="getSAIL">SAIL</string>
+    <string name="getAll5">G5</string>
+    <string name="getASP">ASP</string>
+    <string name="getSSP">SSP</string>
+    <string name="getVISL">VISL</string>
+
+
+    <string name="dateOfProduction">Date of Production (yyyy-mm-dd)</string>
+
+    <string name="BSP">BHILAI STEEL PLANT</string>
+    <string name="ovensPush">Oven Push</string>
+    <string name="sinter">Sinter</string>
+    <string name="hm">HM</string>
+    <string name="pi">PI</string>
+    <string name="cs">CS</string>
+    <string name="sms1">SMS1</string>
+    <string name="sms2cc">SMS2_CC</string>
+    <string name="bbmIngot">BBM_Ingot</string>
+    <string name="rails">Rails</string>
+    <string name="urm">URM</string>
+    <string name="mm">MM</string>
+    <string name="wrm">WRM</string>
+    <string name="platemill">Plate Mill</string>
+    <string name="brm">BRM</string>
+    <string name="semis">Semis</string>
+    <string name="finSteel">Fin_Steel</string>
+    <string name="ssProd">SS_Prod</string>
+    <string name="ssDesp">SS_Desp</string>
+    <string name="latest">Get Latest Information</string>
+    <string name="select_date">Select a date to get production details.</string>
+
+</resources>
